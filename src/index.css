@@ -1,0 +1,180 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Blockchain/NFT Expert Portfolio Design System - Dark Web3 Theme
+All colors MUST be HSL for consistency.
+*/
+
+@layer base {
+  :root {
+    /* Dark Web3 Theme */
+    --background: 222 84% 4.9%;
+    --foreground: 210 40% 98%;
+
+    --card: 224 71% 8%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 224 71% 8%;
+    --popover-foreground: 210 40% 98%;
+
+    /* Ethereum Purple Primary */
+    --primary: 249 50% 65%;
+    --primary-foreground: 222 84% 4.9%;
+
+    /* Cyber Cyan Secondary */
+    --secondary: 193 98% 55%;
+    --secondary-foreground: 222 84% 4.9%;
+
+    --muted: 217 32% 17%;
+    --muted-foreground: 215 20% 65%;
+
+    /* Neon Accent */
+    --accent: 142 76% 56%;
+    --accent-foreground: 222 84% 4.9%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217 32% 17%;
+    --input: 217 32% 17%;
+    --ring: 249 50% 65%;
+
+    --radius: 0.75rem;
+
+    /* Custom Web3 Colors */
+    --ethereum: 249 50% 65%;
+    --cyber-cyan: 193 98% 55%;
+    --neon-green: 142 76% 56%;
+    --deep-purple: 260 40% 20%;
+    --glow-blue: 217 91% 60%;
+
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(var(--ethereum)), hsl(var(--cyber-cyan)));
+    --gradient-accent: linear-gradient(135deg, hsl(var(--cyber-cyan)), hsl(var(--neon-green)));
+    --gradient-background: linear-gradient(180deg, hsl(var(--background)), hsl(var(--deep-purple)));
+    --gradient-glow: radial-gradient(circle at center, hsl(var(--ethereum) / 0.3), transparent 70%);
+
+    /* Shadows & Glows */
+    --shadow-glow: 0 0 30px hsl(var(--ethereum) / 0.3);
+    --shadow-cyber: 0 0 40px hsl(var(--cyber-cyan) / 0.4);
+    --shadow-neon: 0 0 20px hsl(var(--neon-green) / 0.5);
+
+    /* Animations */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-glow: all 0.4s ease-in-out;
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 212.7 26.8% 83.9%;
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    background: var(--gradient-background);
+    min-height: 100vh;
+  }
+}
+
+@layer components {
+  /* Web3 Component Styles */
+  .glow {
+    box-shadow: var(--shadow-glow);
+    transition: var(--transition-glow);
+  }
+
+  .glow:hover {
+    box-shadow: var(--shadow-cyber);
+  }
+
+  .cyber-border {
+    border: 1px solid hsl(var(--cyber-cyan) / 0.3);
+    background: hsl(var(--card) / 0.8);
+    backdrop-filter: blur(10px);
+  }
+
+  .neon-text {
+    text-shadow: 0 0 10px hsl(var(--neon-green) / 0.8);
+  }
+
+  .gradient-text {
+    background: var(--gradient-primary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .floating {
+    animation: float 6s ease-in-out infinite;
+  }
+
+  @keyframes float {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+  }
+
+  .pulse-glow {
+    animation: pulse-glow 2s ease-in-out infinite alternate;
+  }
+
+  @keyframes pulse-glow {
+    from { box-shadow: var(--shadow-glow); }
+    to { box-shadow: var(--shadow-cyber); }
+  }
+}
