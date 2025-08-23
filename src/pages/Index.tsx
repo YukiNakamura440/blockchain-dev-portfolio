@@ -3,10 +3,21 @@ import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Portfolio from "@/components/Portfolio";
 import Contact from "@/components/Contact";
+import FlexibleStarField from "@/components/FlexibleStarField";
 
 const Index = () => {
   return (
     <div className="min-h-screen">
+      <FlexibleStarField 
+        showControls={true}
+        initialConfig={{
+          spawnRate: 0.3,
+          maxStars: 50,
+          starLifetime: 3000,
+          animationSpeed: 1,
+          glowIntensity: 0.8
+        }}
+      />
       <Navigation />
       <main>
         <Hero />
