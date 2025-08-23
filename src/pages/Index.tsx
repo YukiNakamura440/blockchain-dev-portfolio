@@ -8,6 +8,9 @@ import FlexibleStarField from "@/components/FlexibleStarField";
 const Index = () => {
   return (
     <div className="min-h-screen">
+      {
+        /* Star Field Background */
+      }
       <FlexibleStarField 
         showControls={true}
         initialConfig={{
