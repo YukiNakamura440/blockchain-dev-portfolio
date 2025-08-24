@@ -1,36 +1,37 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { Mail, MessageCircle, Calendar, Github, Linkedin, Twitter } from "lucide-react";
-
+import { Mail, MessageCircle, Calendar, Github, Linkedin, Twitter, Send } from "lucide-react";
+import { config } from "@/config";
 const Contact = () => {
   const contactMethods = [
     {
       icon: Mail,
       title: "Email",
       description: "Drop me a line for project inquiries",
-      action: "hello@blockchainexpert.dev",
-      href: "mailto:hello@blockchainexpert.dev"
+      action: "Hello, touchsky000111",
+      href: "mailto:touchsky000111@gmail.com"
     },
     {
       icon: MessageCircle,
       title: "Discord",
       description: "Quick chat about your project",
-      action: "BlockchainDev#1234",
-      href: "#"
+      action: "@touchsky000111",
+      href: "https://discord.com/users/377888885461483530"
     },
     {
-      icon: Calendar,
-      title: "Schedule Call",
-      description: "Book a consultation call",
-      action: "Book 30min call",
-      href: "#"
-    }
+      icon: Send,
+      title: "Telegram",
+      description: "Quick chat about your project",
+      action: "@touchsky000111",
+      href: "https://t.me/touchsky000111"
+    },
   ];
 
   const socialLinks = [
-    { icon: Github, href: "https://github.com", label: "GitHub" },
-    { icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
-    { icon: Twitter, href: "https://twitter.com", label: "Twitter" }
+    { icon: Github, href: config.socialLinks.github, label: "GitHub" },
+    { icon: Twitter, href: config.socialLinks.twitter, label: "Twitter" },
+    { icon: Send, href: config.socialLinks.telegram, label: "Telegram" }
+
   ];
 
   return (
@@ -43,7 +44,7 @@ const Contact = () => {
               Let's Build the <span className="gradient-text">Future</span> Together
             </h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              Ready to bring your blockchain vision to life? Let's discuss your project 
+              Ready to bring your blockchain vision to life? Let's discuss your project
               and explore innovative solutions.
             </p>
           </div>
@@ -62,7 +63,7 @@ const Contact = () => {
                   <p className="text-sm text-muted-foreground mb-4">
                     {method.description}
                   </p>
-                  <a 
+                  <a
                     href={method.href}
                     className="text-cyber-cyan hover:text-neon-green transition-colors font-medium"
                   >
@@ -80,7 +81,7 @@ const Contact = () => {
                 Ready to Start Your Project?
               </h3>
               <p className="text-muted-foreground mb-6 max-w-2xl mx-auto">
-                Whether you need smart contract development, DeFi protocol design, or NFT marketplace creation, 
+                Whether you need smart contract development, DeFi protocol design, or NFT marketplace creation,
                 I'm here to help bring your ideas to reality.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
