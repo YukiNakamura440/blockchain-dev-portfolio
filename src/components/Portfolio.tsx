@@ -3,6 +3,17 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { ExternalLink, Github, TrendingUp, Users, DollarSign } from "lucide-react";
 import nftShowcaseImage from "@/assets/nft-showcase.jpg";
+import cryptoTradingPlatformImage from "@/assets/cryptoTradingPlatformImage.png";
+import AINFTMarketPlace from "@/assets/AI-NFT-Marketplace.png";
+import OmnibusImage from "@/assets/Omnibus.png";
+import MiniappImage from "@/assets/mini-project-1.png"
+import MevBotImage from "@/assets/Solana-MevBot.gif"
+import PepeImage from "@/assets/pepe.png"
+import BTCBullTokenImage from "@/assets/BTCBullToken.png"
+import FantasyPepeImage from "@/assets/fantasy-pepe.gif"
+import DYDXBotImage from "@/assets/DYDX_Bot.png"
+import SniperBotImage from "@/assets/SniperBotImage.png"
+import CrypoCasinoImage from "@/assets/CryptoCasino.png"
 
 const Portfolio = () => {
   const projects = [
@@ -10,26 +21,101 @@ const Portfolio = () => {
       title: "DeFiSwap Protocol",
       description: "Advanced AMM with concentrated liquidity and yield farming capabilities. Built with Solidity and featuring gas-optimized smart contracts.",
       image: nftShowcaseImage,
-      technologies: ["Solidity", "Hardhat", "OpenZeppelin", "Chainlink"],
+      technologies: ["Solana", "Anchor", "Rust", "NextJS"],
       stats: { tvl: "$1.2M", users: "5.2K", apy: "24%" },
-      links: { github: "#", live: "#" }
+      links: { github: "https://github.com/touchsky000111/Solana-Spl-Token-Swap-Platform", live: "https://spl-token-swap.vercel.app/" }
     },
     {
-      title: "NFT Marketplace Pro",
+      title: "Crypto Casino Game",
+      description: "This is Crypto Casino Game platform",
+      image: CrypoCasinoImage,
+      technologies: ["React Vite", "TypeScript", "NodeJs", "Ethers", "Back-end"],
+      stats: { bridged: "$2.1M", txs: "15K", chains: "3" },
+      links: { github: "https://github.com/touchsky000111/Crypto-Casino", live: "https://redowex.com" }
+    },
+
+    {
+      title: "Crypto Trading Protocol on B2 Network",
+      description: "PumpBit is a comprehensive crypto trading platform designed to facilitate perpetual contract trading on the B2 network and offer a staking feature for liquidity pools. ",
+      image: cryptoTradingPlatformImage,
+      technologies: ["Solidity", "Hardhat", "OpenZeppelin", "B2 Network"],
+      stats: { tvl: "$1.2M", users: "5.2K", apy: "24%" },
+      links: { github: "https://github.com/touchsky000111/Crypto-Trading-Platform-EVM", live: "https://testnet.pumpbit.io/" }
+    },
+    {
+      title: "Solana Sniper Bot",
+      description: "This trading bot is sniper bot with memecoin",
+      image: SniperBotImage,
+      technologies: ["Solana/Web3", "TypeScript", "NodeJs", "Helius", "Back-end"],
+      stats: { bridged: "$2.1M", txs: "15K", chains: "3" },
+      links: { github: "https://github.com/touchsky000111/Solana-Raydium-Sniper-Bot", live: "" }
+    },
+    {
+      title: "AI NFT Marketplace Pro",
       description: "Full-featured NFT marketplace with lazy minting, royalties, and advanced search. Supports multiple file formats and IPFS storage.",
-      image: nftShowcaseImage,
+      image: AINFTMarketPlace,
       technologies: ["Solidity", "React", "IPFS", "The Graph"],
       stats: { volume: "$850K", items: "12K", creators: "1.5K" },
-      links: { github: "#", live: "#" }
+      links: { github: "https://github.com/touchsky000111/Ethereum-AI-NFT-Marketing-Place", live: "http://nfprompt.io/" }
     },
     {
-      title: "Multi-Chain Bridge",
-      description: "Secure cross-chain bridge supporting Ethereum, Polygon, and BSC. Features automated market making and liquidity incentives.",
-      image: nftShowcaseImage,
-      technologies: ["Solidity", "TypeScript", "Web3.js", "Ethers"],
+      title: "Omnibus-Wallet-mMoney Platform",
+      description: "This service provides a comprehensive API for managing cryptocurrency wallets, handling transactions, and interacting with the Solana blockchain. Built with Rust and Axum, it offers high performance, type safety, and scalability for blockchain applications.",
+      image: OmnibusImage,
+      technologies: ["Rust", "TypeScript", "Web3.js", "Ethers", "Back-end"],
       stats: { bridged: "$2.1M", txs: "15K", chains: "3" },
-      links: { github: "#", live: "#" }
-    }
+      links: { github: "https://github.com/touchsky000111/Omnibus-Wallet-mMoney/", live: "#" }
+    },
+    {
+      title: "Telegram mini app Game",
+      description: "This innovative mini app seamlessly blends entertainment and opportunity, making it the perfect launchpad for our upcoming token.",
+      image: MiniappImage,
+      technologies: ["React Vite", "TypeScript", "NodeJs", "Ethers", "Back-end"],
+      stats: { bridged: "$2.1M", txs: "15K", chains: "3" },
+      links: { github: "https://github.com/touchsky000111/Opullenx-TG-mini-app-Bot-Backend", live: "https://t.me/@opulencex_airdropgame_bot" }
+    },
+    {
+      title: "Solana Mev Bot",
+      description: "This high-performance MEV bot delivers strategic edge through validator-node-level front-running, leveraging Solana's speed for real-time arbitrage and transaction pool dominance.",
+      image: MevBotImage,
+      technologies: ["TypeScript", "NodeJs", "Bot", "Validate Node"],
+      stats: { bridged: "$2.1M", txs: "15K", chains: "3" },
+      links: { github: "https://github.com/touchsky000111/Solana-Mev-Bot", live: "" }
+    },
+    {
+      title: "Pepe NFT Generate app",
+      description: "This high-performance MEV bot delivers strategic edge through validator-node-level front-running, leveraging Solana's speed for real-time arbitrage and transaction pool dominance.",
+      image: PepeImage,
+      technologies: ["React Vite", "TypeScript", "NodeJs", "Ethers", "Back-end"],
+      stats: { bridged: "$2.1M", txs: "15K", chains: "3" },
+      links: { github: "https://github.com/touchsky000111/littlepepe", live: "https://littlepepe.com/" }
+    },
+    {
+      title: "Bull Token Pre-sale Platform",
+      description: "",
+      image: BTCBullTokenImage,
+      technologies: ["React Vite", "TypeScript", "NodeJs", "Ethers", "Back-end"],
+      stats: { bridged: "$2.1M", txs: "15K", chains: "3" },
+      links: { github: "https://github.com/touchsky000111/BullBtc-Presale", live: "https://btcbulltoken.com/" }
+    },
+    {
+      title: "Fantasy Pepe",
+      description: "This project is Presale and Staking Platform for Pepe coin on Ethereum and Binance Smart chaain",
+      image: FantasyPepeImage,
+      technologies: ["React Vite", "TypeScript", "NodeJs", "Ethers", "Back-end"],
+      stats: { bridged: "$2.1M", txs: "15K", chains: "3" },
+      links: { github: "https://github.com/touchsky000111/Fantasy-Pepe", live: "https://fantasypepe.com/" }
+    },
+    {
+      title: "DYDX Telegram Bot",
+      description: "This trading bot is using DYDX account on https://mintscan.io",
+      image: DYDXBotImage,
+      technologies: ["TypeScript", "NodeJs", "Ethers", "Back-end"],
+      stats: { bridged: "$2.1M", txs: "15K", chains: "3" },
+      links: { github: "https://github.com/touchsky000111/btc_eth_pair_bot", live: "" }
+    },
+
+
   ];
 
   return (
@@ -42,7 +128,7 @@ const Portfolio = () => {
               <span className="gradient-text">Featured</span> Projects
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Explore my latest blockchain projects showcasing advanced smart contract development 
+              Explore my latest blockchain projects showcasing advanced smart contract development
               and innovative DeFi solutions.
             </p>
           </div>
@@ -54,7 +140,7 @@ const Portfolio = () => {
                 <div className={`grid grid-cols-1 lg:grid-cols-2 gap-8 ${index % 2 === 1 ? 'lg:grid-flow-col-dense' : ''}`}>
                   {/* Project Image */}
                   <div className={`relative ${index % 2 === 1 ? 'lg:col-start-2' : ''}`}>
-                    <div 
+                    <div
                       className="aspect-video bg-cover bg-center rounded-lg m-6"
                       style={{ backgroundImage: `url(${project.image})` }}
                     >
@@ -87,7 +173,7 @@ const Portfolio = () => {
                       </div>
 
                       {/* Stats */}
-                      <div>
+                      {/* <div>
                         <h4 className="text-sm font-semibold text-cyber-cyan mb-3">Key Metrics</h4>
                         <div className="grid grid-cols-3 gap-4">
                           {Object.entries(project.stats).map(([key, value], statIndex) => (
@@ -97,18 +183,23 @@ const Portfolio = () => {
                             </div>
                           ))}
                         </div>
-                      </div>
+                      </div> */}
 
                       {/* Links */}
                       <div className="flex gap-3 pt-4">
-                        <Button variant="ethereum" size="sm">
-                          <Github className="mr-2 h-4 w-4" />
-                          Code
-                        </Button>
-                        <Button variant="cyber" size="sm">
-                          <ExternalLink className="mr-2 h-4 w-4" />
-                          Live Demo
-                        </Button>
+                        <a href={project.links.github} target="_blank" rel="noopener noreferrer">
+                          <Button variant="ethereum" size="sm">
+                            <Github className="mr-2 h-4 w-4" />
+                            Code
+                          </Button>
+                        </a>
+
+                        <a href={project.links.live} target="_blank" rel="noopener noreferrer">
+                          <Button variant="cyber" size="sm">
+                            <ExternalLink className="mr-2 h-4 w-4" />
+                            Live Demo
+                          </Button>
+                        </a>
                       </div>
                     </CardContent>
                   </div>
@@ -125,8 +216,8 @@ const Portfolio = () => {
             </Button>
           </div>
         </div>
-      </div>
-    </section>
+      </div >
+    </section >
   );
 };
 

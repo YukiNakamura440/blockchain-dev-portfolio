@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X, Code, Briefcase, User, Mail } from "lucide-react";
-
+import avatar from "@/assets/avatar.jpg";
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
@@ -30,16 +30,13 @@ const Navigation = () => {
   };
 
   return (
-    <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-      scrolled ? 'cyber-border bg-background/80 backdrop-blur-md' : 'bg-transparent'
-    }`}>
+    <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled ? 'cyber-border bg-background/80 backdrop-blur-md' : 'bg-transparent'
+      }`}>
       <div className="container mx-auto px-6">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex items-center gap-2">
-            <div className="w-8 h-8 bg-gradient-to-br from-ethereum to-cyber-cyan rounded-lg flex items-center justify-center">
-              <Code className="h-4 w-4 text-background" />
-            </div>
+            <img src={avatar} alt="Logo" className="w-8 h-8 rounded-3xl" />
             <span className="text-xl font-bold gradient-text">BlockchainDev</span>
           </div>
 
@@ -55,9 +52,6 @@ const Navigation = () => {
                 {item.label}
               </button>
             ))}
-            <Button variant="cyber" size="sm">
-              Hire Me
-            </Button>
           </div>
 
           {/* Mobile Menu Button */}

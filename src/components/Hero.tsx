@@ -27,7 +27,7 @@ const Hero = () => {
       />
 
       {/* Content */}
-      <div className="relative z-10 container mx-auto px-6">
+      <div className="relative z-10 container mx-auto px-6 py-16">
         <div className="flex flex-col md:flex-row items-center md:items-start gap-32 ">
           {/* Profile Section */}
 
@@ -49,7 +49,7 @@ const Hero = () => {
 
               {/* Role */}
               <p className="inline-block px-4 py-1 text-sm font-medium rounded-full bg-cyber-cyan/10 text-cyber-cyan border border-cyber-cyan/30 shadow-sm">
-                🚀 Blockchain & NFT Developer
+                🚀 Defi & NFT & Trading bot Developer
               </p>
 
               {/* Tech Stack */}
@@ -98,8 +98,16 @@ const Hero = () => {
 
             {/* Contact Info */}
             <div className="text-sm text-muted-foreground space-y-1">
-              <p>📧 {config.socialLinks.email}</p>
-              <p>🌍 {config.location}</p>
+              <div className="text-sm text-muted-foreground space-y-2">
+                <div className="flex items-center gap-2">
+                  <span>📧</span>
+                  <span>{config.socialLinks.email}</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <span>🌍</span>
+                  <span>{config.location}</span>
+                </div>
+              </div>
             </div>
           </div>
 
@@ -116,8 +124,7 @@ const Hero = () => {
 
               {/* Main Heading */}
               <h1 className="text-5xl md:text-7xl font-extrabold mb-8 leading-[1.2] tracking-tight">
-                <span className="block gradient-text">Blockchain</span>
-                <span className="block gradient-text">NFT & Trading Bots</span>
+                <span className="block gradient-text">Defi & NFT & Trading Bots</span>
                 <span className="text-foreground">Expert Developer</span>
               </h1>
 
