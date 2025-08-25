@@ -140,11 +140,11 @@ const Portfolio = () => {
                 <div className={`grid grid-cols-1 lg:grid-cols-2 gap-8 ${index % 2 === 1 ? 'lg:grid-flow-col-dense' : ''}`}>
                   {/* Project Image */}
                   <div className={`relative ${index % 2 === 1 ? 'lg:col-start-2' : ''}`}>
+                    <div className="absolute inset-0 bg-gradient-to-br from-ethereum/20 to-cyber-cyan/20 rounded-lg" />
                     <div
-                      className="aspect-video bg-cover bg-center rounded-lg m-6"
+                      className="aspect-video bg-cover bg-center rounded-lg m-6 z-1000 transform group-hover:scale-105 transition-transform duration-300"
                       style={{ backgroundImage: `url(${project.image})` }}
                     >
-                      <div className="absolute inset-0 bg-gradient-to-br from-ethereum/20 to-cyber-cyan/20 rounded-lg" />
                     </div>
                   </div>
 
