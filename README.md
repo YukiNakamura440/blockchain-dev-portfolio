@@ -2,11 +2,9 @@
 
 ## Project info
 
-**URL**: https://lovable.dev/projects/2f071476-ae2e-4837-8eea-1d0383a3787d
+**URL**: https://touchsky000111.vercel.app
 
-## How can I edit this code?
 
-There are several ways of editing your application.
 
 **Use Lovable**
 
