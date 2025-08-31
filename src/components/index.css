@@ -1,0 +1,34 @@
+.glow {
+    box-shadow: 0 0 15px #9945ff80;
+}
+
+.to-solana-accent {
+    --tw-gradient-to: #03E1FF var(--tw-gradient-to-position);
+}
+
+.from-solana {
+    --tw-gradient-from: #9945FF var(--tw-gradient-from-position);
+    --tw-gradient-to: rgb(153 69 255 / 0) var(--tw-gradient-to-position);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.bg-gradient-to-br {
+    background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
+}
+
+.animate-float {
+    animation: float 6s ease-in-out infinite;
+}
+
+.animate-data-flow {
+    animation: data-flow 10s linear infinite;
+}
+
+.bg-solana-accent {
+    --tw-bg-opacity: 1;
+    background-color: rgb(3 225 255 / var(--tw-bg-opacity, 1));
+}
+
+.bg-muted_30 {
+    background-color: hsl(var(--muted) / .3);
+}

@@ -40,6 +40,7 @@ const Hero = () => {
               className="w-48 h-48 md:w-64 md:h-64 object-cover rounded-full border-4 border-cyber-cyan shadow-xl"
             />
 
+            <div className="h-8 w-8 bg-gradient-to-br from-solana to-solana-accent rounded-full glow"></div>
             {/* Name & Title */}
             <div className="space-y-3">
               {/* Name */}
@@ -56,7 +57,7 @@ const Hero = () => {
               <p className="text-muted-foreground flex flex-wrap gap-3 items-center">
                 <span className="px-2 py-1 rounded-md bg-ethereum/10 text-ethereum font-semibold">Ethereum</span>
                 <span className="px-2 py-1 rounded-md bg-cyber-cyan/10 text-cyber-cyan font-semibold">Solana</span>
-                <span className="px-2 py-1 rounded-md bg-neon-green/10 text-neon-green font-semibold">Tron</span>
+                <span className="px-2 py-1 rounded-md bg-neon-green/10 text-rose-600 font-semibold">Tron</span>
               </p>
             </div>
 
@@ -124,45 +125,156 @@ const Hero = () => {
 
               {/* Main Heading */}
               <h1 className="text-5xl md:text-7xl font-extrabold mb-8 leading-[1.2] tracking-tight">
-                <span className="block gradient-text">Defi & NFT & Trading Bots</span>
-                <span className="text-foreground">Expert Developer</span>
+                <span className="block gradient-text from-solana to-solana-secondary">Defi & NFT & Trading Bots</span>
+                <span className="text-foreground text-[#14f195]">Expert Developer</span>
               </h1>
 
-              {/* Subtitle */}
-              <p className="relative text-lg md:text-2xl text-muted-foreground/80 mb-12 max-w-3xl leading-relaxed tracking-wide">
-                <span className="absolute -left-6 top-2 w-1 h-12 bg-gradient-to-b from-ethereum to-cyber-cyan rounded-full hidden md:block" />
-                Crafting <span className="font-semibold text-foreground">scalable</span>
-                <span className="gradient-text font-semibold"> Ethereum </span> &
-                <span className="gradient-text font-semibold"> Solana </span> smart contracts,
-                <span className="gradient-text font-semibold"> DeFi </span> protocols, and
-                <span className="gradient-text font-semibold"> NFT ecosystems</span>.
-                <br className="hidden md:block" />
-                <span className="text-foreground font-semibold">Let’s build the decentralized future 🚀</span>
-              </p>
-
-
-
-              {/* Stats */}
-              <div className="grid grid-cols-3 gap-8 mb-12 max-w-lg">
-                <div className="text-center md:text-left">
-                  <div className="text-3xl font-bold gradient-text mb-2">50+</div>
-                  <div className="text-sm text-muted-foreground">
-                    Smart Contracts
+              <div className="relative  md:block px-10">
+                <div className="relative bg-card rounded-xl p-4 border border-border glow animate-float">
+                  <div className="absolute -top-2 -left-2 w-4 h-4 rounded-full bg-purple-600"></div>
+                  <div className="absolute -top-2 -right-2 w-4 h-4 rounded-full bg-rose-600"></div>
+                  <div className="absolute -bottom-2 -left-2 w-4 h-4 rounded-full bg-[#14F195]"></div>
+                  <div className="absolute -bottom-2 -right-2 w-4 h-4 rounded-full bg-[#03E1FF]"></div>
+                  <div className="mb-4 flex justify-between items-center"><div>
+                    <h3 className="font-bold">PumpSwap Sniper Dashboard</h3>
+                    <p className="text-xs text-muted-foreground">Active - Monitoring</p></div>
+                    <span className="px-2 py-1 bg-solana-secondary/20 text-solana-secondary text-xs rounded-md">+42.3% MTD</span>
                   </div>
-                </div>
-                <div className="text-center md:text-left">
-                  <div className="text-3xl font-bold gradient-text mb-2">$2M+</div>
-                  <div className="text-sm text-muted-foreground">
-                    TVL Managed
+                  <div className="h-40 mb-4 bg-muted/30 rounded-md overflow-hidden relative grid place-items-center">
+                    <div className="absolute inset-0 flex flex-col items-end">
+                      <div className="w-full h-full flex items-end">
+                        <div
+                          className="flex-1 mx-px"
+                          style={{
+                            height: "30%",
+                            background: "linear-gradient(to top, rgba(153, 69, 255, 0.8), transparent)"
+                          }}
+                        ></div>
+
+                        <div
+                          className="flex-1 mx-px"
+                          style={{
+                            height: "45%",
+                            background: "linear-gradient(to top, rgba(153, 69, 255, 0.8), transparent)"
+                          }}
+                        ></div>
+
+                        <div
+                          className="flex-1 mx-px"
+                          style={{
+                            height: "25%",
+                            background: "linear-gradient(to top, rgba(153, 69, 255, 0.8), transparent)"
+                          }}
+                        ></div>
+
+                        <div
+                          className="flex-1 mx-px"
+                          style={{
+                            height: "60%",
+                            background: "linear-gradient(to top, rgba(20, 241, 149, 0.8), transparent)"
+                          }}
+                        ></div>
+
+                        <div
+                          className="flex-1 mx-px"
+                          style={{
+                            height: "35%",
+                            background: "linear-gradient(to top, rgba(153, 69, 255, 0.8), transparent)"
+                          }}
+                        ></div>
+
+                        <div
+                          className="flex-1 mx-px"
+                          style={{
+                            height: "45%",
+                            background: "linear-gradient(to top, rgba(153, 69, 255, 0.8), transparent)"
+                          }}
+                        ></div>
+
+                        <div
+                          className="flex-1 mx-px"
+                          style={{
+                            height: "70%",
+                            background: "linear-gradient(to top, rgba(20, 241, 149, 0.8), transparent)"
+                          }}
+                        ></div>
+
+                        <div
+                          className="flex-1 mx-px"
+                          style={{
+                            height: "55%",
+                            background: "linear-gradient(to top, rgba(20, 241, 149, 0.8), transparent)"
+                          }}
+                        ></div>
+
+                        <div
+                          className="flex-1 mx-px"
+                          style={{
+                            height: "65%",
+                            background: "linear-gradient(to top, rgba(20, 241, 149, 0.8), transparent)"
+                          }}
+                        ></div>
+
+                        <div
+                          className="flex-1 mx-px"
+                          style={{
+                            height: "80%",
+                            background: "linear-gradient(to top, rgba(20, 241, 149, 0.8), transparent)"
+                          }}
+                        ></div>
+
+                        <div
+                          className="flex-1 mx-px"
+                          style={{
+                            height: "65%",
+                            background: "linear-gradient(to top, rgba(20, 241, 149, 0.8), transparent)"
+                          }}
+                        ></div>
+
+                        <div
+                          className="flex-1 mx-px"
+                          style={{
+                            height: "75%",
+                            background: "linear-gradient(to top, rgba(20, 241, 149, 0.8), transparent)"
+                          }}
+                        />
+
+                        <div
+                          className="flex-1 mx-px"
+                          style={{
+                            height: "90%",
+                            background: "linear-gradient(to top, rgba(20, 241, 149, 0.8), transparent)"
+                          }}
+                        />
+
+
+                        {/* <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-chart-line text-muted-foreground opacity-30 w-12 h-12"><path d="M3 3v16a2 2 0 0 0 2 2h16"></path><path d="m19 9-5 5-4-4-3 3"></path></svg> */}
+                      </div>
+
+                      <div className="mt-4 flex items-center space-x-2 w-full">
+                        <div className="h-1 flex-1 bg-muted_30 overflow-hidden">
+                          <div className="h-full w-1/4 bg-solana-accent animate-data-flow"></div>
+                        </div>
+                        <div className="text-xs text-muted-foreground">Live Data Stream</div>
+                      </div>
+                    </div>
                   </div>
-                </div>
-                <div className="text-center md:text-left">
-                  <div className="text-3xl font-bold gradient-text mb-2">15+</div>
-                  <div className="text-sm text-muted-foreground">
-                    NFT Projects
+                  <div className="grid grid-cols-3 gap-2">
+                    <div className="bg-muted/30 p-2 rounded-md">
+                      <p className="text-xs text-muted-foreground">Token Launches</p>
+                      <p className="font-bold">24</p>
+                    </div>
+                    <div className="bg-muted/30 p-2 rounded-md">
+                      <p className="text-xs text-muted-foreground">Win Rate</p>
+                      <p className="font-bold">94.7%</p></div>
+                    <div className="bg-muted/30 p-2 rounded-md">
+                      <p className="text-xs text-muted-foreground">Avg. ROI</p>
+                      <p className="font-bold">317%</p>
+                    </div>
                   </div>
                 </div>
               </div>
+
 
               {/* /*{CTA Buttons}
               <div className="flex flex-col sm:flex-row gap-4">

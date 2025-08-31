@@ -1,7 +1,7 @@
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent } from "@/components/ui/card";
 import { Shield, Code, Zap, Globe } from "lucide-react";
-
+import "./index.css";
 const About = () => {
   const expertise = [
     {
@@ -67,14 +67,17 @@ const About = () => {
         <div className="max-w-6xl mx-auto">
           {/* Section Header */}
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold mb-6">
-              <span className="gradient-text">About</span> My Expertise
+            <h2 className="text-4xl md:text-5xl font-bold mb-6 text-[#14f195]">
+              Technical Expertise
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
               With over 5 years in blockchain development, I specialize in creating secure,
               scalable, and innovative decentralized solutions.
             </p>
           </div>
+
+
+
 
           {/* Expertise Grid */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
@@ -99,105 +102,8 @@ const About = () => {
             ))}
           </div>
 
-          {/* Technologies */}
-          {/* Technologies */}
-          <div className="text-center">
-            <h3 className="text-3xl font-extrabold mb-10 ">
-              🚀 Technologies & Tools
-            </h3>
 
-            {/* Ethereum Ecosystem */}
-            <div className="mb-12">
-              <h4 className="text-xl font-bold mb-6 text-ethereum">⧫ Ethereum Ecosystem</h4>
-              <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 max-w-4xl mx-auto">
-                {technologies.ethereum.map((tech, index) => (
-                  <div
-                    key={index}
-                    className="group relative p-4 rounded-xl bg-background/40 border border-border/40 hover:border-ethereum/60 shadow-md 
-          hover:shadow-ethereum/40 transition-all duration-300 transform hover:-translate-y-1 hover:scale-105"
-                  >
-                    <div className="flex flex-col items-center gap-2">
-                      <span className="text-2xl group-hover:scale-125 transition-transform">
-                        {tech.icon}
-                      </span>
-                      <span className="font-medium text-sm md:text-base text-foreground">
-                        {tech.name}
-                      </span>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </div>
 
-            {/* Solana Ecosystem */}
-            <div className="mb-12">
-              <h4 className="text-xl font-bold mb-6 text-cyber-cyan">🌊 Solana Ecosystem</h4>
-              <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 max-w-4xl mx-auto">
-                {technologies.solana.map((tech, index) => (
-                  <div
-                    key={index}
-                    className="group relative p-4 rounded-xl bg-background/40 border border-border/40 hover:border-cyber-cyan/60 shadow-md 
-          hover:shadow-cyber-cyan/40 transition-all duration-300 transform hover:-translate-y-1 hover:scale-105"
-                  >
-                    <div className="flex flex-col items-center gap-2">
-                      <span className="text-2xl group-hover:scale-125 transition-transform">
-                        {tech.icon}
-                      </span>
-                      <span className="font-medium text-sm md:text-base text-foreground">
-                        {tech.name}
-                      </span>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </div>
-
-            {/* Tron Ecosystem */}
-            <div className="mb-12">
-              <h4 className="text-xl font-bold mb-6 text-red-500">🔺 Tron Ecosystem</h4>
-              <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 max-w-4xl mx-auto">
-                {technologies.tron.map((tech, index) => (
-                  <div
-                    key={index}
-                    className="group relative p-4 rounded-xl bg-background/40 border border-border/40 hover:border-red-500/60 shadow-md 
-          hover:shadow-red-500/40 transition-all duration-300 transform hover:-translate-y-1 hover:scale-105"
-                  >
-                    <div className="flex flex-col items-center gap-2">
-                      <span className="text-2xl group-hover:scale-125 transition-transform">
-                        {tech.icon}
-                      </span>
-                      <span className="font-medium text-sm md:text-base text-foreground">
-                        {tech.name}
-                      </span>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </div>
-
-            {/* General Web3 / Frontend */}
-            <div>
-              <h4 className="text-xl font-bold mb-6 text-neon-green">⚡ General Web3 & Frontend</h4>
-              <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 max-w-4xl mx-auto">
-                {technologies.general.map((tech, index) => (
-                  <div
-                    key={index}
-                    className="group relative p-4 rounded-xl bg-background/40 border border-border/40 hover:border-neon-green/60 shadow-md 
-          hover:shadow-neon-green/40 transition-all duration-300 transform hover:-translate-y-1 hover:scale-105"
-                  >
-                    <div className="flex flex-col items-center gap-2">
-                      <span className="text-2xl group-hover:scale-125 transition-transform">
-                        {tech.icon}
-                      </span>
-                      <span className="font-medium text-sm md:text-base text-foreground">
-                        {tech.name}
-                      </span>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </div>
 
         </div>
       </div>

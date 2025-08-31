@@ -46,7 +46,7 @@ const Navigation = () => {
               <button
                 key={index}
                 onClick={() => scrollToSection(item.href)}
-                className="flex items-center gap-2 text-muted-foreground hover:text-ethereum transition-colors"
+                className="flex items-center gap-2 text-muted-foreground hover:text-ethereum transition-colors text-white"
               >
                 <item.icon className="h-4 w-4" />
                 {item.label}

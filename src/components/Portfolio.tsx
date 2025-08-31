@@ -124,8 +124,8 @@ const Portfolio = () => {
         <div className="max-w-6xl mx-auto">
           {/* Section Header */}
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold mb-6">
-              <span className="gradient-text">Featured</span> Projects
+            <h2 className="text-4xl md:text-5xl font-bold mb-6 text-[#14F195]">
+              Featured  Projects
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
               Explore my latest blockchain projects showcasing advanced smart contract development
@@ -188,7 +188,7 @@ const Portfolio = () => {
                       {/* Links */}
                       <div className="flex gap-3 pt-4">
                         <a href={project.links.github} target="_blank" rel="noopener noreferrer">
-                          <Button variant="ethereum" size="sm">
+                          <Button variant="ethereum" size="sm" className="bg-[#9945ffe6] text-white">
                             <Github className="mr-2 h-4 w-4" />
                             Code
                           </Button>

@@ -40,3 +40,14 @@
 .read-the-docs {
   color: #888;
 }
+
+
+.from-solana {
+    --tw-gradient-from: #9945FF var(--tw-gradient-from-position);
+    --tw-gradient-to: rgb(153 69 255 / 0) var(--tw-gradient-to-position);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.to-solana-secondary {
+    --tw-gradient-to: #14F195 var(--tw-gradient-to-position);
+}
