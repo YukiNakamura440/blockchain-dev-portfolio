@@ -84,12 +84,12 @@ const Contact = () => {
                 Whether you need smart contract development, DeFi protocol design, or NFT marketplace creation,
                 I'm here to help bring your ideas to reality.
               </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Button variant="hero" size="lg">
+              <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                <Button size="lg" className="bg-[#9945ffe6] text-white w-[200px]">
                   <Mail className="mr-2 h-4 w-4" />
                   Get In Touch
                 </Button>
-                <Button variant="cyber" size="lg">
+                <Button variant="cyber" size="lg" className="w-[200px]">
                   <Calendar className="mr-2 h-4 w-4" />
                   Schedule Consultation
                 </Button>

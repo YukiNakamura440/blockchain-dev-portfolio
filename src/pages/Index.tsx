@@ -4,6 +4,7 @@ import About from "@/components/About";
 import Portfolio from "@/components/Portfolio";
 import Contact from "@/components/Contact";
 import FlexibleStarField from "@/components/FlexibleStarField";
+import PerformanceMatrics from "@/components/PerformanceMetrics";
 
 const Index = () => {
   return (
@@ -11,7 +12,7 @@ const Index = () => {
       {
         /* Star Field Background */
       }
-      <FlexibleStarField 
+      <FlexibleStarField
         showControls={true}
         initialConfig={{
           spawnRate: 0.3,
@@ -24,8 +25,11 @@ const Index = () => {
       <Navigation />
       <main>
         <Hero />
-        <div id="about">
+        <div id="about" >
           <About />
+        </div>
+        <div id="performance" >
+          <PerformanceMatrics />
         </div>
         <div id="portfolio">
           <Portfolio />
@@ -34,7 +38,7 @@ const Index = () => {
           <Contact />
         </div>
       </main>
-      
+
       {/* Footer */}
       <footer className="border-t border-border/20 py-8">
         <div className="container mx-auto px-6">
