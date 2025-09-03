@@ -98,7 +98,7 @@ const Hero = () => {
             </div>
 
             {/* Contact Info */}
-            <div className="text-sm text-muted-foreground space-y-1">
+            {/* <div className="text-sm text-muted-foreground space-y-1">
               <div className="text-sm text-muted-foreground space-y-2">
                 <div className="flex items-center gap-2">
                   <span>📧</span>
@@ -109,7 +109,7 @@ const Hero = () => {
                   <span>{config.location}</span>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
 
           {/* Text Section */}
