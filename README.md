@@ -2,12 +2,12 @@
 
 ## Project info
 
-**URL**: https://touchsky000111.vercel.app
+**URL**: https://YukiNakamura440.vercel.app
 
 
 ```sh
 # Step 1: Clone the repository using the project's Git URL.
-git clone https://github.com/touchsky000111/blockchain-dev-portfolio
+git clone https://github.com/YukiNakamura440/blockchain-dev-portfolio
 
 # Step 2: Navigate to the project directory.
 cd blockchain-dev-portfolio
