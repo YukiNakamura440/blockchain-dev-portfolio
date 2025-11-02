@@ -23,7 +23,7 @@ const Portfolio = () => {
       image: nftShowcaseImage,
       technologies: ["Solana", "Anchor", "Rust", "NextJS"],
       stats: { tvl: "$1.2M", users: "5.2K", apy: "24%" },
-      links: { github: "https://github.com/touchsky000111/Solana-Spl-Token-Swap-Platform", live: "https://spl-token-swap.vercel.app/" }
+      links: { github: "https://github.com/YukiNakamura440/Solana-Spl-Token-Swap-Platform", live: "https://spl-token-swap.vercel.app/" }
     },
     {
       title: "Crypto Casino Game",
@@ -31,7 +31,7 @@ const Portfolio = () => {
       image: CrypoCasinoImage,
       technologies: ["React Vite", "TypeScript", "NodeJs", "Ethers", "Back-end"],
       stats: { bridged: "$2.1M", txs: "15K", chains: "3" },
-      links: { github: "https://github.com/touchsky000111/Crypto-Casino", live: "https://redowex.com" }
+      links: { github: "https://github.com/YukiNakamura440/Coin-Flip-Mini-Game", live: "https://redowex.com" }
     },
 
     {
@@ -40,7 +40,7 @@ const Portfolio = () => {
       image: cryptoTradingPlatformImage,
       technologies: ["Solidity", "Hardhat", "OpenZeppelin", "B2 Network"],
       stats: { tvl: "$1.2M", users: "5.2K", apy: "24%" },
-      links: { github: "https://github.com/touchsky000111/Crypto-Trading-Platform-EVM", live: "https://testnet.pumpbit.io/" }
+      links: { github: "https://github.com/YukiNakamura440/Trading-Bot-Solana-High-Speed", live: "https://testnet.pumpbit.io/" }
     },
     {
       title: "Solana Sniper Bot",
@@ -48,7 +48,7 @@ const Portfolio = () => {
       image: SniperBotImage,
       technologies: ["Solana/Web3", "TypeScript", "NodeJs", "Helius", "Back-end"],
       stats: { bridged: "$2.1M", txs: "15K", chains: "3" },
-      links: { github: "https://github.com/touchsky000111/Solana-Raydium-Sniper-Bot", live: "" }
+      links: { github: "https://github.com/YukiNakamura440/Solana-Sniper-bot", live: "" }
     },
     {
       title: "AI NFT Marketplace Pro",
@@ -56,7 +56,7 @@ const Portfolio = () => {
       image: AINFTMarketPlace,
       technologies: ["Solidity", "React", "IPFS", "The Graph"],
       stats: { volume: "$850K", items: "12K", creators: "1.5K" },
-      links: { github: "https://github.com/touchsky000111/Ethereum-AI-NFT-Marketing-Place", live: "http://nfprompt.io/" }
+      links: { github: "https://github.com/YukiNakamura440/EVM-NFT-Marketplace-Solidity", live: "http://nfprompt.io/" }
     },
     {
       title: "Omnibus-Wallet-mMoney Platform",
@@ -64,7 +64,7 @@ const Portfolio = () => {
       image: OmnibusImage,
       technologies: ["Rust", "TypeScript", "Web3.js", "Ethers", "Back-end"],
       stats: { bridged: "$2.1M", txs: "15K", chains: "3" },
-      links: { github: "https://github.com/touchsky000111/Omnibus-Wallet-mMoney/", live: "#" }
+      links: { github: "https://github.com/YukiNakamura440/Wallet-EVM", live: "#" }
     },
     {
       title: "Telegram mini app Game",
@@ -72,7 +72,7 @@ const Portfolio = () => {
       image: MiniappImage,
       technologies: ["React Vite", "TypeScript", "NodeJs", "Ethers", "Back-end"],
       stats: { bridged: "$2.1M", txs: "15K", chains: "3" },
-      links: { github: "https://github.com/touchsky000111/Opullenx-TG-mini-app-Bot-Backend", live: "https://t.me/@opulencex_airdropgame_bot" }
+      links: { github: "https://github.com/YukiNakamura440/Telegram-Sniper-Bot", live: "https://t.me/@opulencex_airdropgame_bot" }
     },
     {
       title: "Solana Mev Bot",
@@ -80,7 +80,7 @@ const Portfolio = () => {
       image: MevBotImage,
       technologies: ["TypeScript", "NodeJs", "Bot", "Validate Node"],
       stats: { bridged: "$2.1M", txs: "15K", chains: "3" },
-      links: { github: "https://github.com/touchsky000111/Solana-Mev-Bot", live: "" }
+      links: { github: "https://github.com/YukiNakamura440/Solana-Sniper-bot", live: "" }
     },
     {
       title: "Pepe NFT Generate app",
@@ -88,7 +88,7 @@ const Portfolio = () => {
       image: PepeImage,
       technologies: ["React Vite", "TypeScript", "NodeJs", "Ethers", "Back-end"],
       stats: { bridged: "$2.1M", txs: "15K", chains: "3" },
-      links: { github: "https://github.com/touchsky000111/littlepepe", live: "https://littlepepe.com/" }
+      links: { github: "https://github.com/YukiNakamura440/rust-rustlings-2023-autumn-applepwc", live: "https://littlepepe.com/" }
     },
     {
       title: "Bull Token Pre-sale Platform",
@@ -96,7 +96,7 @@ const Portfolio = () => {
       image: BTCBullTokenImage,
       technologies: ["React Vite", "TypeScript", "NodeJs", "Ethers", "Back-end"],
       stats: { bridged: "$2.1M", txs: "15K", chains: "3" },
-      links: { github: "https://github.com/touchsky000111/BullBtc-Presale", live: "https://btcbulltoken.com/" }
+      links: { github: "https://github.com/YukiNakamura440/Token-Presale-website", live: "https://btcbulltoken.com/" }
     },
     {
       title: "Fantasy Pepe",
@@ -104,7 +104,7 @@ const Portfolio = () => {
       image: FantasyPepeImage,
       technologies: ["React Vite", "TypeScript", "NodeJs", "Ethers", "Back-end"],
       stats: { bridged: "$2.1M", txs: "15K", chains: "3" },
-      links: { github: "https://github.com/touchsky000111/Fantasy-Pepe", live: "https://fantasypepe.com/" }
+      links: { github: "https://github.com/YukiNakamura440/Fantasy-Pepe", live: "https://fantasypepe.com/" }
     },
     {
       title: "DYDX Telegram Bot",
@@ -112,7 +112,7 @@ const Portfolio = () => {
       image: DYDXBotImage,
       technologies: ["TypeScript", "NodeJs", "Ethers", "Back-end"],
       stats: { bridged: "$2.1M", txs: "15K", chains: "3" },
-      links: { github: "https://github.com/touchsky000111/btc_eth_pair_bot", live: "" }
+      links: { github: "https://github.com/YukiNakamura440/btc_eth_pair_bot", live: "" }
     },
 
 

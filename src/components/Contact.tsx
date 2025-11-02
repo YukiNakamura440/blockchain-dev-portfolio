@@ -8,22 +8,22 @@ const Contact = () => {
       icon: Mail,
       title: "Email",
       description: "Drop me a line for project inquiries",
-      action: "Hello, touchsky000111",
-      href: "mailto:touchsky000111@gmail.com"
+      action: "Hello, YukiNakamura440",
+      href: "mailto:YukiNakamura440@gmail.com"
     },
     {
       icon: MessageCircle,
       title: "Discord",
       description: "Quick chat about your project",
-      action: "@touchsky000111",
+      action: "@YukiNakamura440",
       href: "https://discord.com/users/377888885461483530"
     },
     {
       icon: Send,
       title: "Telegram",
       description: "Quick chat about your project",
-      action: "@touchsky000111",
-      href: "https://t.me/touchsky000111"
+      action: "@YukiNakamura440",
+      href: "https://t.me/YukiNakamura440"
     },
   ];
 
