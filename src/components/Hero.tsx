@@ -125,7 +125,7 @@ const Hero = () => {
 
               {/* Main Heading */}
               <h1 className="text-5xl md:text-7xl font-extrabold mb-8 leading-[1.2] tracking-tight">
-                <span className="block gradient-text from-solana to-solana-secondary">Defi & NFT & Trading Bots</span>
+                <span className="block gradient-text from-solana to-solana-secondary">DeFi, NFTs, Trading Bots, and Web3 </span>
                 <span className="text-foreground text-[#14f195]">Expert Developer</span>
               </h1>
 
