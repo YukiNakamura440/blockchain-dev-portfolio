@@ -23,7 +23,7 @@ const Portfolio = () => {
       image: nftShowcaseImage,
       technologies: ["Solana", "Anchor", "Rust", "NextJS"],
       stats: { tvl: "$1.2M", users: "5.2K", apy: "24%" },
-      links: { github: "https://github.com/YukiNakamura440/Solana-Spl-Token-Swap-Platform", live: "https://spl-token-swap.vercel.app/" }
+      links: { github: "https://github.com/YukiNakamura440/Solana", live: "https://spl-token-swap.vercel.app/" }
     },
     {
       title: "Crypto Casino Game",
@@ -104,7 +104,7 @@ const Portfolio = () => {
       image: FantasyPepeImage,
       technologies: ["React Vite", "TypeScript", "NodeJs", "Ethers", "Back-end"],
       stats: { bridged: "$2.1M", txs: "15K", chains: "3" },
-      links: { github: "https://github.com/YukiNakamura440/Fantasy-Pepe", live: "https://fantasypepe.com/" }
+      links: { github: "https://github.com/YukiNakamura440/Kanban-Task", live: "https://fantasypepe.com/" }
     },
     {
       title: "DYDX Telegram Bot",
@@ -112,7 +112,7 @@ const Portfolio = () => {
       image: DYDXBotImage,
       technologies: ["TypeScript", "NodeJs", "Ethers", "Back-end"],
       stats: { bridged: "$2.1M", txs: "15K", chains: "3" },
-      links: { github: "https://github.com/YukiNakamura440/btc_eth_pair_bot", live: "" }
+      links: { github: "https://github.com/YukiNakamura440/ArbitrageBot-Solana-Jupiter", live: "" }
     },
 
 

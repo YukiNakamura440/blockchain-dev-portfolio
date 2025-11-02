@@ -23,7 +23,7 @@ const Contact = () => {
       title: "Telegram",
       description: "Quick chat about your project",
       action: "@YukiNakamura440",
-      href: "https://t.me/YukiNakamura440"
+      href: "https://t.me/Ceres_1004"
     },
   ];
 
